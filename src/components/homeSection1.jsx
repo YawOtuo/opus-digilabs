@@ -33,24 +33,32 @@ export const HomeSection1 = () =>
             </div>
             <div className="row align-items-center justify-content-center my-5 text-center py-sm-5">
                 <div className="col-sm-2 mt-5 my-sm-0">
-                    <h3 className='font-weight-bold'>99.95%</h3>
-                    <p>Accuracy rate</p>
-                    <p>in fulfilling orders</p>
+                    <h3 className='font-weight-bold m-sm-0'>99.95%</h3>
+                    <div className='big_font_16'>
+                        <p className='m-sm-0 p-sm-0'  style={{fontWeight: "500"}}>Accuracy rate</p>
+                        <p>in fulfilling orders</p>
+                    </div>
                 </div>
                 <div className="col-sm-2 mt-5 my-sm-0">
                     <h3 className='font-weight-bold'>5,000+</h3>
-                    <p>Ecommerce businesses</p>
-                    <p>partner with opus</p>
+                  <div className='big_font_16'>
+                        <p  className='m-sm-0 p-sm-0' style={{fontWeight: "500"}}>Ecommerce businesses</p>
+                        <p>partner with opus</p>
+                  </div>
                 </div>
                 <div className="col-sm-2 mt-5 my-sm-0">
                     <h3 className='font-weight-bold'>99.96%</h3>
-                    <p>of orders ship on time</p>
-                    <p>within SLA</p>
+                    <div className='big_font_16'>
+                        <p  className='m-sm-0 p-sm-0'  style={{fontWeight: "500"}}>of orders ship on time</p>
+                        <p>within SLA</p>
+                    </div>
                 </div>
                 <div className="col-sm-3 mt-5 my-sm-0">
                     <h3 className='font-weight-bold'>#1</h3>
-                    <p>Best Fulfillment Technology</p>
-                    <p>by AdWeek's Retail Awards</p>
+                  <div className='big_font_16'>
+                        <p  className='m-sm-0 p-sm-0' style={{fontWeight: "500"}}>Best Fulfillment Technology</p>
+                        <p>by AdWeek's Retail Awards</p>
+                  </div>
                 </div>
 
 

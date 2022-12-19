@@ -6,7 +6,7 @@ import '../css_files/App.css'
 import { HomeSection2 } from '../components/homeSection2_video_title';
 import { HomeSection3 } from '../components/homeSection3_ways';
 import { HomeSection4 } from '../components/homeSection4';
-import { HomeSection5 } from '../components/homeSection5';
+import { HomeSection5 } from '../components/homeSection5_knowledge';
 import { HomeSection6 } from '../components/homeSection6';
 import { Footer } from '../components/footer';
 
@@ -14,7 +14,7 @@ import { Footer } from '../components/footer';
 export const HomePage = () =>
 {
     return (
-        <div className=' bg-light text-dark'>
+        <div className='text-dark'>
 
             <div className='row align-items-center justify-content-center'>
 

@@ -1,0 +1,99 @@
+.grey_box1 { 
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 266px;
+
+position: absolute;
+height: 116px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+
+background: #FFFFFF;
+}
+
+.blue_box2{
+    position: absolute;
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 588px 0px 0px;
+
+width: 35%;
+height: 116px;
+
+background: #1355FF;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.white_box1{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 196px;
+
+position: absolute;
+height: 64px;
+left: 0px;
+right: 0px;
+top: 0px;
+background: #FFFFFF;
+}
+
+.white_box2{
+    width: 1120px;
+height: 64px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0
+}
+
+.blue_box3{
+    
+position: absolute;
+width: 32px;
+height: 32px;
+left: 64px;
+bottom: -32px;
+
+background: #1355FF;
+}
+
+.blue_box4{
+    position: absolute;
+width: 64px;
+height: 64px;
+left: 0px;
+bottom: 0px;
+
+background: #1355FF;
+}
+
+.grey_flair{
+    position: absolute;
+width: 64px;
+height: 64px;
+left: 0px;
+top: 0px;
+
+background: #F7F9FC;
+z-index: -1;
+}
+
+.grey_flair2{
+    position: absolute;
+width: 92px;
+height: 92px;
+left: -92px;
+bottom: -92px;
+}

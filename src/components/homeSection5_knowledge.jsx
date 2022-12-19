@@ -6,7 +6,7 @@ export const HomeSection5 = () =>
     return (
         <div className="container-fluid my-5 py-5">
             <div className="row align-items-center justify-content-center mt-5 pt-5">
-                <div className="col-sm-5">
+                <div className="col-sm-5 order-last order-sm-first">
                     <img className='img-fluid' src={modern_and_elegant} alt="" />
                 </div>
                 <div className="col-sm-5 px-sm-5">

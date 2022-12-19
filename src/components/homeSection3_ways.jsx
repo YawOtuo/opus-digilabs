@@ -18,7 +18,7 @@ export const HomeSection3 = () =>
              px-sm-0 text-center text-sm-left mt-5 mt-sm-0">
                 <div className="col-sm-3 ">
                     <img className='img-fluid' src={project_management_pic} alt="" />
-                    <div className='my-3 text-left px-4'>
+                    <div className='my-3 text-left px-4 px-sm-0'>
                         <h4>Project Management</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget consectetur eros.
                             Aliquam erat volutpat. Praesent pulvinar arcu non lectus dapibus,
@@ -27,7 +27,7 @@ export const HomeSection3 = () =>
                 </div>
                 <div className="col-sm-3 mt-5 mt-sm-0">
                     <img className='img-fluid' src={advanced_analytics_pic} alt="" />
-                   <div className='my-3 text-left px-4'>
+                   <div className='my-3 text-left px-4 px-sm-0'>
                         <h4>Advanced Analytics</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget consectetur eros.
                             Aliquam erat volutpat. Praesent pulvinar arcu non lectus dapibus,
@@ -36,7 +36,7 @@ export const HomeSection3 = () =>
                 </div>
                 <div className="col-sm-3 mt-5 mt-sm-0">
                     <img className='img-fluid' src={marketing_and_dashboard_pic} alt="" />
-                    <div className='my-3 text-left px-4'>
+                    <div className='my-3 text-left px-4 px-sm-0'>
                         <h4>Marketing & Dashboard</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget consectetur eros.
                             Aliquam erat volutpat. Praesent pulvinar arcu non lectus dapibus,
