@@ -1,3 +1,4 @@
+import homepic from '../images/homepage_pic.png'
 export const HomeMessage = () =>
 {
     return (
@@ -12,6 +13,9 @@ export const HomeMessage = () =>
                         <button type="" >Learn More</button>
                         <p>Explore Pages</p>
                     </div>
+                </div>
+                <div className="col-sm-6">
+<img src={homepic}/>
                 </div>
                 <div className="col-sm-6">
                    <p>I felt like i couldn;t grow until I moved to Opus. Now i am 

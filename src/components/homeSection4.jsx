@@ -1,3 +1,4 @@
+import life_pic from '../images/youre_doing_life.png'
 export const HomeSection4 = () =>
 {
     return (
@@ -35,7 +36,7 @@ export const HomeSection4 = () =>
                     <p>Handcrafted pages</p>
                 </div>
                 <div className="col-sm-6">
-                    Image goes here
+                    <img src={life_pic}/>
                 </div>
             </div>
         </div>
