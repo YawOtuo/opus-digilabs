@@ -1,11 +1,17 @@
+import { ButtonBlue } from "./blue_button"
+import opus_vector from '../images/Vector.png'
+
+
 export const Footer = () =>
 {
     return (
-        <div className="container">
-            <div class="row">
+        <div className="container mt-5 pt-5 px-5 px-sm-0">
+            <div class="row align-items-center justify-content-start my-5">
+                <img className='img-fluid' src={opus_vector} />
+
                 opus
             </div>
-            <div class="row align-items-center justify-content-center">
+            <div class="row align-items-start justify-content-start">
                 <div className="col-sm-2">
                     <p>OVERVIEW</p>
                     <p>Overview</p>
@@ -49,27 +55,28 @@ export const Footer = () =>
                 <div className="col-sm-4">
                     <div className="row align-items-center justify-content-center">
                         <input placeholder='Email Address'></input>
-                        <button>Get Started</button>
+                        <ButtonBlue text='Get Started' />
                     </div>
-                    <div className="row align-items-center justify-content-center">
+                    <div className="row align-items-center justify-content-center mt-4">
                         <div className="col-sm-6">
                             <p>OPUS FOR WEBFLOW</p>
-                            <p>Lorem Ipsum</p>
+                            <h4 className="opus_blue">Lorem Ipsum</h4>
                         </div>
                         <div className="col-sm-6">
                             <p>OPUS FOR FIGMA</p>
-                            <p>Lorem Ipsum</p>
+                            <h4 className="opus_blue">Lorem Ipsum</h4>
                         </div>
                     </div>
-                    <div className="row align-items-center justify-content-center">
-<p> c Template by Lorem - Powered by Ipsum</p>
+                    <div className="row align-items-center justify-content-center mt-5">
+                        <p> c Template by <span className="opus_blue">Lorem</span>
+                         - Powered by <span className="opus_blue" >Ipsum</span></p>
                     </div>
                 </div>
             </div>
-            <div className="row align-items-center justify-content-center">
-                <p>Style Guide</p>
-                <p>Licence</p>
-                <p>Changelog</p>
+            <div className="row align-items-center justify-content-start">
+                <p className="pr-5">Style Guide</p>
+                <p  className="pr-5">Licence</p>
+                <p  className="pr-5">Changelog</p>
             </div>
         </div>
     )

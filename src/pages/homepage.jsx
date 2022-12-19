@@ -14,7 +14,7 @@ import { Footer } from '../components/footer';
 export const HomePage = () =>
 {
     return (
-        <div className='container-fluid bg-light text-dark'>
+        <div className=' bg-light text-dark'>
 
             <div className='row align-items-center justify-content-center'>
 
