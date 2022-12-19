@@ -1,0 +1,38 @@
+export const HomeSection3 = () =>
+{
+    return (
+        <div className="container-fluid">
+            <div className="row align-items-center justify-content-center">
+                <div className="col-sm-8">
+                    <h1>Ways to work with us</h1>
+                    <button>Get Started</button>
+                </div>
+
+            </div>
+            <div className="row align-items-center justify-content-center">
+                <div className="col-sm-3">
+                    <p>Image</p>
+                    <h4>Project Management</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget consectetur eros.
+                        Aliquam erat volutpat. Praesent pulvinar arcu non lectus dapibus,
+                        a pulvinar mauris aliquam.</p>
+                </div>
+                <div className="col-sm-3">
+                    <p>Image</p>
+                    <h4>Project Management</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget consectetur eros.
+                        Aliquam erat volutpat. Praesent pulvinar arcu non lectus dapibus,
+                        a pulvinar mauris aliquam.</p>
+                </div>
+                <div className="col-sm-3">
+                    <p>Image</p>
+                    <h4>Project Management</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget consectetur eros.
+                        Aliquam erat volutpat. Praesent pulvinar arcu non lectus dapibus,
+                        a pulvinar mauris aliquam.</p>
+                </div>
+            </div>
+
+        </div>
+    )
+}
