@@ -21,9 +21,9 @@ export const HomeSection4 = () =>
                 <div className="col-sm-7">
                     <h3>Create pages using beautiful components</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget consectetur eros.
-                            Aliquam erat volutpat. Praesent pulvinar arcu non lectus dapibus,
-                            a pulvinar mauris aliquam.</p>
-                        <button>Learn More</button>
+                        Aliquam erat volutpat. Praesent pulvinar arcu non lectus dapibus,
+                        a pulvinar mauris aliquam.</p>
+                    <button>Learn More</button>
                 </div>
 
             </div>
@@ -36,7 +36,7 @@ export const HomeSection4 = () =>
                     <p>Handcrafted pages</p>
                 </div>
                 <div className="col-sm-6">
-                    <img src={life_pic}/>
+                    <img className='img-fluid' src={life_pic} />
                 </div>
             </div>
         </div>

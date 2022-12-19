@@ -16,21 +16,21 @@ export const HomeSection3 = () =>
             </div>
             <div className="row align-items-center justify-content-center">
                 <div className="col-sm-3">
-                    <img src={project_management_pic} alt="" />
+                    <img className='img-fluid' src={project_management_pic} alt="" />
                     <h4>Project Management</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget consectetur eros.
                         Aliquam erat volutpat. Praesent pulvinar arcu non lectus dapibus,
                         a pulvinar mauris aliquam.</p>
                 </div>
                 <div className="col-sm-3">
-                <img src={advanced_analytics_pic} alt="" />
+                    <img className='img-fluid' src={advanced_analytics_pic} alt="" />
                     <h4>Advanced Analytics</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget consectetur eros.
                         Aliquam erat volutpat. Praesent pulvinar arcu non lectus dapibus,
                         a pulvinar mauris aliquam.</p>
                 </div>
                 <div className="col-sm-3">
-                <img src={marketing_and_dashboard_pic} alt="" />
+                    <img className='img-fluid' src={marketing_and_dashboard_pic} alt="" />
                     <h4>Marketing & Dashboard</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget consectetur eros.
                         Aliquam erat volutpat. Praesent pulvinar arcu non lectus dapibus,

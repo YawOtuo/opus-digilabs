@@ -7,8 +7,8 @@ export const HomeSection5 = () =>
         <div className="container-fluid">
             <div className="row align-items-center justify-content-center">
                 <div className="col-sm-5">
-                    <img src={modern_and_elegant} alt=""/>                
-                    </div>
+                    <img className='img-fluid' src={modern_and_elegant} alt="" />
+                </div>
                 <div className="col-sm-5">
                     <p>Our Knowledge</p>
                     <h3>A UI Kit that's Modern and Elegant</h3>
@@ -28,7 +28,7 @@ export const HomeSection5 = () =>
                     <button>LEft <i class="fas fa-quote-right    "></i></button>
                 </div>
                 <div className="col-sm-6">
-                <img src={opus_ui_kit_pic} alt=""/>  
+                    <img className='img-fluid' src={opus_ui_kit_pic} alt="" />
                 </div>
             </div>
         </div>

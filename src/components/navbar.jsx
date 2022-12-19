@@ -17,7 +17,7 @@ class Navbar extends Component
 
                 <div className='w-100'>
                     <nav class={`navbar navbar-light navbar-expand-lg ${this.props.navbar_dark}`}>
-                        {/* <Link class="navbar-brand " to=""><img src={logo1} height='60px' width='60px'></img></Link> */}
+                        {/* <Link class="navbar-brand " to=""><img className='img-fluid' src={logo1} height='60px' width='60px'></img className='img-fluid'></Link> */}
 
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -32,16 +32,16 @@ class Navbar extends Component
                             </ul>
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item active" >
-                                    <Link class="nav-link"  to="/home">Home </Link>
+                                    <Link class="nav-link" to="/home">Home </Link>
                                 </li>
 
 
-                               
-                             
+
+
                                 <li class="nav-item active">
-                                    <Link class="nav-link"  to="/profile">Profile</Link>
+                                    <Link class="nav-link" to="/profile">Profile</Link>
                                 </li>
-                               
+
                             </ul>
                         </div>
                     </nav>

@@ -13,14 +13,14 @@ export const HomeSection6 = () =>
             </div>
             <div className="row align-items-center justify-content-center">
                 <div className="col-sm-3">
-                    <img src={high_converting_pic} alt="" />
+                    <img className='img-fluid' src={high_converting_pic} alt="" />
                     <h4>A high-converting, high-performing template</h4>
                     <p>Turpis senectus amet tortor in sodates odio tettus.
                         Pretium id amet, euismod sceteriscue vetit.</p>
                     <button>Read Article</button>
                 </div>
                 <div className="col-sm-3">
-                    <img src={clean_look_pic} alt="" />
+                    <img className='img-fluid' src={clean_look_pic} alt="" />
 
                     <h4>With a clean, minimal and professional look</h4>
                     <p>Turpis senectus amet tortor in sodates odio tettus.
@@ -28,7 +28,7 @@ export const HomeSection6 = () =>
                     <button>Read Article</button>
                 </div>
                 <div className="col-sm-3">
-                    <img src={journey_possible_pic} alt="" />
+                    <img className='img-fluid' src={journey_possible_pic} alt="" />
 
                     <h4>Opus made our journey possible</h4>
                     <p>Turpis senectus amet tortor in sodates odio tettus.

@@ -15,15 +15,15 @@ export const HomeMessage = () =>
                     </div>
                 </div>
                 <div className="col-sm-6">
-<img src={homepic}/>
+                    <img className='img-fluid' src={homepic} />
                 </div>
                 <div className="col-sm-6">
-                   <p>I felt like i couldn;t grow until I moved to Opus. Now i am 
-                    encouraged to sell more with them.
+                    <p>I felt like i couldn;t grow until I moved to Opus. Now i am
+                        encouraged to sell more with them.
 
-                   </p>
-                   <h3>Frank Dublin</h3>
-                   <h4>CEO@STAMPS</h4>
+                    </p>
+                    <h3>Frank Dublin</h3>
+                    <h4>CEO@STAMPS</h4>
                 </div>
             </div>
         </div>
