@@ -10,14 +10,15 @@ export const HomeSection6 = () =>
     return (
         <div className="container-fluid mt-5 mt-sm-3 pt-5 pt-sm-0 px-4 ">
             <div class="row align-items-center justify-content-around my-5 pt-5 text-center text-sm-left ">
-                <div className='col-sm-2'><h1 className='font-weight-bold'>Resources</h1></div >
+                <div className='col-sm-2'>
+                    <h1 className='font-weight-bold big_font_48'>Resources</h1></div >
                 <div className='col-sm-2'><ButtonBlue text='Get Started' /></div>
             </div>
             <div className="row align-items-center justify-content-center text-center">
                 <div className="col-sm-3 ">
                     <img className='img-fluid ' src={high_converting_pic} alt="" />
                     <div className='my-3 text-left px-4 px-sm-0'>
-                        <h4>A high-converting, high-performing template</h4>
+                        <h4 className=''>A high-converting, high-performing template</h4>
                         <p>Turpis senectus amet tortor in sodates odio tettus.
                             Pretium id amet, euismod sceteriscue vetit.</p>
                         <ButtonGrey text="Read Article"/>

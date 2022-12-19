@@ -7,7 +7,8 @@ export const Footer = () =>
     return (
         <div className="container mt-5 pt-5 px-5 px-sm-0">
             <div class="row align-items-center justify-content-start my-5">
-                <img className='img-fluid' src={opus_vector} />
+                <img className='img-fluid' src={opus_vector} /> 
+                &nbsp;
 
                 opus
             </div>
@@ -52,8 +53,8 @@ export const Footer = () =>
                     <p>Case Study</p>
                     <p>Job Post</p>
                 </div>
-                <div className="col-sm-4">
-                    <div className="row align-items-center justify-content-center">
+                <div className="col-sm-6">
+                    <div className="row align-items-center justify-content-start">
                         <input placeholder='Email Address'></input>
                         <ButtonBlue text='Get Started' />
                     </div>

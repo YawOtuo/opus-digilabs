@@ -11,7 +11,7 @@ export const HomeSection1 = () =>
             <div className="row align-items-center justify-content-center text-center text-sm-left">
                 <h3 className='px-4 px-sm-0 my-5 font-weight-bold '>Trusted and loved by the world's best teams</h3>
             </div>
-            <div className="row align-items-center justify-content-center text-center">
+            <div className="row align-items-center justify-content-center text-center mb-sm-5 pb-sm-5">
                 <div className='col-sm-2 mt-5 mt-sm-0 mb-5 mb-sm-0'>
                     <img className='img-fluid' src={wetransfer_pic} />
 
@@ -31,24 +31,24 @@ export const HomeSection1 = () =>
             
 
             </div>
-            <div className="row align-items-center justify-content-center my-5 text-center text-sm-left">
+            <div className="row align-items-center justify-content-center my-5 text-center py-sm-5">
                 <div className="col-sm-2 mt-5 my-sm-0">
-                    <p className='font-weight-bold'>99.95%</p>
+                    <h3 className='font-weight-bold'>99.95%</h3>
                     <p>Accuracy rate</p>
                     <p>in fulfilling orders</p>
                 </div>
                 <div className="col-sm-2 mt-5 my-sm-0">
-                    <p className='font-weight-bold'>5,000+</p>
+                    <h3 className='font-weight-bold'>5,000+</h3>
                     <p>Ecommerce businesses</p>
                     <p>partner with opus</p>
                 </div>
                 <div className="col-sm-2 mt-5 my-sm-0">
-                    <p className='font-weight-bold'>99.96%</p>
+                    <h3 className='font-weight-bold'>99.96%</h3>
                     <p>of orders ship on time</p>
                     <p>within SLA</p>
                 </div>
-                <div className="col-sm-2 mt-5 my-sm-0">
-                    <p className='font-weight-bold'>#1</p>
+                <div className="col-sm-3 mt-5 my-sm-0">
+                    <h3 className='font-weight-bold'>#1</h3>
                     <p>Best Fulfillment Technology</p>
                     <p>by AdWeek's Retail Awards</p>
                 </div>

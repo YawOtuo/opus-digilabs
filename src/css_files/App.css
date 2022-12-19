@@ -26,3 +26,52 @@ color: black;
 .opus_blue{
   color: #1355FF
 }
+
+.big_font_32{
+  font-family: "Inter";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.9599999785423279px;
+  text-align: center;
+  
+}
+
+.big_font_37{
+  font-family: "Inter";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.9599999785423279px;
+  text-align: center;
+  
+}
+
+.big_font_40{
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.big_font_48{
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.frank{
+  left: 182px;
+right: -48px;
+top: 299.5px;
+bottom: 0px;
+
+background: #FFFFFF;
+box-shadow: 38px 38px 104px -24px rgba(6, 18, 55, 0.04);
+color: black
+}
