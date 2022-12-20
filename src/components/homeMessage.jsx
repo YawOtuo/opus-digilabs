@@ -7,7 +7,8 @@ export const HomeMessage = () =>
     return (
         <div className="container-fluid  text-white position-relative ">
             <div class="row align-items-start justify-content-center pt-5  pt-sm-5 homeMessageBg">
-                <div className="col-sm-5 text-center text-sm-left my-sm-5 ">
+                <div className="col-sm-5 text-center text-sm-left mt-sm-5 
+                pt-sm-5 px-sm-5">
                     <h1 className='font-weight-bold px-4 px-sm-0 big_font_48' style={{fontSize: "64px"}}>Built for enterprise businesses</h1>
                     <p className='px-4 px-sm-0 big_font_48' 
                      style={{fontSize: "18px", lineHeight: "36px", letterSpacing: "-0.36px"}}>
@@ -26,7 +27,7 @@ export const HomeMessage = () =>
                 <div className="col-sm-5 my-sm-5 " style={{ zIndex: 10 }}>
                     <img className='img-fluid homepic ' src={homepic} />
 
-                    <div className="col-sm-8 d-none d-md-block position-absolute frank p-4">
+                    <div className="col-sm-8 d-none d-md-block position-absolute frank p-5">
 
                         <p className='big_font_16' >I felt like i couldn't grow until I moved to Opus. Now i am
                             encouraged to sell more with them.
