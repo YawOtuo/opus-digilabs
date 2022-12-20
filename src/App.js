@@ -4,9 +4,12 @@ import './css_files/homepage.css';
 
 import { HomePage } from './pages/homepage';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import React from 'react';
 
 
-function App() {
+class App extends React.Component {
+  
+render(){
   return (
     <BrowserRouter>
     <Routes>
@@ -14,6 +17,6 @@ function App() {
     </Routes>
     </BrowserRouter>
   );
-}
+}}
 
 export default App;

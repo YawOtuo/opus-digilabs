@@ -97,3 +97,18 @@ height: 92px;
 left: -92px;
 bottom: -92px;
 }
+
+.arrows{
+width: 40px;
+height: 40px;
+right: 275px;
+bottom: -72px;
+
+background: #F2F3F8;
+}
+
+.contact{
+    font-size: 14px;
+line-height: 24px;
+letter-spacing: -0.28px;
+}

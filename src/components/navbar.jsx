@@ -15,7 +15,7 @@ class Navbar extends Component
     {
         return (
             <div className='container'>
-                <div class='row  position-sticky align-content-center justify-content-center  w-100' style={{ zIndex: '30' }}>
+                <div class='row  position-sticky align-content-center justify-content-center  px-3' style={{ zIndex: '30' }}>
                     <div className='w-100'>
                         <nav class={`navbar navbar-light navbar-expand-lg ${this.props.navbar_dark}`}>
                             <Link class="navbar-brand " to="">
@@ -27,32 +27,29 @@ class Navbar extends Component
                             </button>
 
                             <div class="w-100 align-items-center justify-content-center collapse navbar-collapse" id="navbarNavDropdown">
-                                <ul class="navbar-nav text-center d-none d-sm-block">
-                                    <li class="nav-item active" >
-                                        <span className='navtitle' >opus</span>
-
-                                    </li>
-                                </ul>
-                                <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item active" >
-                                        <Link class="nav-link" to="/home">Overview </Link>
+                              
+                                <ul class="navbar-nav w-100 align-self-center">
+                                    <li class="nav-item active ml-5" >
+                                        <Link class="nav-link big_font_16" style={{fontSize: 14}} to="/home">Overview </Link>
                                     </li>
 
 
 
 
-                                    <li class="nav-item active">
-                                        <Link class="nav-link" to="/profile">Pages</Link>
+                                    <li class="nav-item active  mx-5">
+                                        <Link class="nav-link big_font_16" style={{fontSize: 14}} to="/profile">Pages</Link>
                                     </li>
 
-                                    <li class="nav-item active">
-                                        <Link class="nav-link" to="/profile">Template</Link>
+                                    <li class="nav-item active  mr-5">
+                                        <Link class="nav-link big_font_16" style={{fontSize: 14}} to="/profile">Template</Link>
                                     </li>
 
-                                    <li class="nav-item active">
-
-                                        <ButtonBlue text='Contact Us' />
-                                    </li>
+                                   <ul className='navbar-nav ml-auto'>
+                                        <li class="nav-item active ml-auto">
+    
+                                            <ButtonBlue text='Contact Us' extra_class='contact'/>
+                                        </li>
+                                   </ul>
                                 </ul>
                             </div>
                         </nav>

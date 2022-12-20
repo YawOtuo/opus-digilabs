@@ -10,7 +10,7 @@ export const HomeSection2 = () =>
         <div className="container-fluid px-4 px-sm-0 mt-5 mt-sm-0 pt-5 pt-sm-0">
 
             <div className="row align-items-center justify-content-center pt-5">
-                <div className="col-sm-8">
+                <div className="col-sm-8 px-5 px-sm-0">
                     <div className='grey_flair'>
 
                     </div>
@@ -24,7 +24,7 @@ export const HomeSection2 = () =>
 
                 </div>
                 <div className='col-sm-4'></div>
-                <div className="col-sm-4 mt-4 mb-2 ">
+                <div className="col-sm-4 mt-4 mb-2 px-5 px-sm-0 ">
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget consectetur eros.
                         Aliquam erat volutpat. Praesent pulvinar arcu non lectus dapibus,
@@ -32,7 +32,7 @@ export const HomeSection2 = () =>
                 </div>
             </div>
             <div className="row align-items-center justify-content-center mb-5 mt-5 pt-5">
-                <div className="col-sm-5 mt-5 mt-sm-0">
+                <div className="col-sm-5 mt-5 mt-sm-0 px-5 px-sm-0">
                     <h1 className='big_font_48'>Make your site better with Opus</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget consectetur eros.
                         Aliquam erat volutpat. Praesent pulvinar arcu non lectus dapibus,

@@ -18,7 +18,7 @@ export const HomePage = () =>
 
             <div className='row align-items-center justify-content-center'>
 
-                <div className='col-sm-12'>
+                <div className='col-sm-'>
                     <Navbar/>
                     <HomeMessage/>
                     <HomeSection1/>
