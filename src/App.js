@@ -5,6 +5,7 @@ import './css_files/homepage.css';
 import { HomePage } from './pages/homepage';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import React from 'react';
+import { Admin } from './components/admin/admin';
 
 
 class App extends React.Component {
@@ -14,6 +15,8 @@ render(){
     <BrowserRouter>
     <Routes>
         <Route path='/' element={<HomePage/>} />
+        <Route path='/admin' element={<Admin/>} />
+
     </Routes>
     </BrowserRouter>
   );
