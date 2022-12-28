@@ -102,15 +102,15 @@ export const Admin = () =>
 
     }
     return (
-        <div>
+        <div className="">
             <Navbar />
-            <div className=" py-5">
-                <div className="row align-items-center justify-content-center py-5 bg-info">
+            <div className="container-fluid py-5">
+                <div className="row align-items-center justify-content-center py-5 blue_bg">
                     <div className="col-sm-4">
-                        <Link to='/' className="text-white">Header Content</Link>
+                        <Link to='/' className="text-white">Go to Header Content</Link>
                     </div>
                     <div className="col-sm-4">
-                        <Link to ='/admin-emails' className="text-white">EMails</Link>
+                        <Link to ='/admin-emails' className="text-white">Go to Emails Section</Link>
                     </div>
                 </div>
                 <div className="row align-items-center justify-content-center">
@@ -119,12 +119,12 @@ export const Admin = () =>
                             <div className="col-sm-6">
 
                                 <label for="exampleFormControlTextarea1" class="form-label">
-                                    Enter header text
+                                    Enter header text to update
                                 </label>
                                 <textarea class="form-control"
                                     onChange={(e) => handleChange(e)} id="exampleFormControlTextarea1" rows="3"></textarea>
 
-                                <button className="btn btn-success"
+                                <button className="btn btn-success blue_bg"
                                     onClick={(e) =>
                                     {
                                         saveHeaderText(e)
@@ -142,12 +142,14 @@ export const Admin = () =>
                                         uploadImage(e)
                                     }
                                     }>
-                                        <p>Select header image to be updated</p>
-                                        <input type='file' name='image' accept='image/*'
-                                            onChange={handleImageChange}
-                                            id='inputimage' ></input>
+                                       <div>
+                                            <p>Select header image to be updated</p>
+                                            <input type='file' name='image' accept='image/*'
+                                                onChange={handleImageChange}
+                                                id='inputimage' ></input>
+                                       </div>
 
-                                        <button className="btn btn-success mb-3"
+                                        <button className="btn btn-success mb-3 mt-2 blue_bg"
                                             type="submit"
                                         >Update Image</button>
                                     </form>

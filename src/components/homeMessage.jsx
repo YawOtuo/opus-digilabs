@@ -35,7 +35,7 @@ export const HomeMessage = () =>
     }, [public_id])
     return (
         <div className="container-fluid  text-white position-relative ">
-            <div class="row align-items-start justify-content-center pt-5  py-sm-5 homeMessageBg">
+            <div class="row align-items-start justify-content-center pt-5  pt-sm-5 pb-sm-1 homeMessageBg">
                 <div className="col-sm-5 text-center text-sm-left mt-sm-5 
                 pt-sm-5 px-sm-5">
                     <h1 className='font-weight-bold px-5 px-sm-0 big_font_48' style={{ fontSize: "64px" }}>

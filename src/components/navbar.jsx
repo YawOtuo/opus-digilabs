@@ -18,7 +18,7 @@ class Navbar extends Component
                 <div class='row  position-sticky align-content-center justify-content-center  px-3' style={{ zIndex: '30' }}>
                     <div className='w-100'>
                         <nav class={`navbar navbar-light navbar-expand-lg ${this.props.navbar_dark}`}>
-                            <Link class="navbar-brand " to="">
+                            <Link class="navbar-brand " to="/">
                                 <img className='img-fluid' src={opus_vector} />
                             </Link>
 

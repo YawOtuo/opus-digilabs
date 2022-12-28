@@ -25,7 +25,7 @@ export const AdminEmails = () =>
         return Object.keys(emails).map((item) =>
         {
             console.log(emails[item].emails)
-            return <p>{emails[item].emails}</p>
+            return <p>{emails[item].id} : {emails[item].emails}</p>
         }
 
         )
@@ -35,13 +35,13 @@ export const AdminEmails = () =>
 
         <div className="">
             <Navbar />
-            <div>
-                <div className="row align-items-center justify-content-center py-5 bg-info text-white">
+            <div className="container-fluid py-5">
+                <div className="row align-items-center justify-content-center py-5 blue_bg text-white">
                     <div className="col-sm-4">
-                        <Link to='/admin' className="text-white">Header Content</Link>
+                        <Link to='/admin' className="text-white">Go to Header Content</Link>
                     </div>
                     <div className="col-sm-4">
-                        <Link to='/admin-emails' className="text-white">Emails</Link>
+                        <Link to='/admin-emails' className="text-white">Go to Emails Section</Link>
                     </div>
                 </div>
             </div>

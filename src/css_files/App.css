@@ -6,6 +6,10 @@ body{
   background-color: #FFFFFF;
 
 }
+.blue_bg{
+  background: #1355FF;
+
+}
 
 .blue_button {
   border: 2px solid #1355FF;
