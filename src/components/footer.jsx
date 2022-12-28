@@ -1,9 +1,34 @@
 import { ButtonBlue } from "./blue_button"
 import opus_vector from '../images/Vector.png'
+import { useEffect, useState } from "react"
+import axios from "axios"
+import { url } from "./weburl"
 
 
 export const Footer = () =>
 {
+    const [emailId, setEmailId] = useState('')
+
+    useEffect(()=>{
+
+    }, [emailId])
+    const handleChange = (e) =>
+    {
+        e.preventDefault()
+        console.log(e.target)
+        setEmailId(e.target.value)
+    }
+    const sendEmailId  = (e) => {
+        e.preventDefault()
+        console.log('cliecked')
+        axios
+        .post(`${url}api/emails`, {email: emailId})
+        .then((res)=> {
+            setEmailId('')
+        })
+        .catch((err)=> console.log(err))
+
+    }
     return (
         <div className="container-fluid mt-5 pt-5 big_font_16">
            <div className="row aiign-items-center justify-content-center px-5 px-sm-0">
@@ -57,8 +82,10 @@ export const Footer = () =>
                         </div>
                         <div className="col-sm-6">
                             <div className="row align-items-center justify-content-start">
-                                <input placeholder='Email Address'></input>
-                                <ButtonBlue text='Get Started' />
+                                <input placeholder='Email Address' onChange={e => handleChange(e)} value={emailId}></input>
+                                <ButtonBlue text='Get Started' onClick={sendEmailId}/>
+                                {/* <button className="blue_button py-2" type="submit"
+                                onClick={sendEmailId}>Get Started</button> */}
                             </div>
                             <div className="row align-items-center justify-content-center mt-4">
                                 <div className="col-sm-6">

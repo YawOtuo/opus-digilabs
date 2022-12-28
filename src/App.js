@@ -6,6 +6,7 @@ import { HomePage } from './pages/homepage';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import React from 'react';
 import { Admin } from './components/admin/admin';
+import { AdminEmails } from './components/admin/adminEmails';
 
 
 class App extends React.Component {
@@ -16,6 +17,8 @@ render(){
     <Routes>
         <Route path='/' element={<HomePage/>} />
         <Route path='/admin' element={<Admin/>} />
+        <Route path='/admin-emails' element={<AdminEmails/>} />
+
 
     </Routes>
     </BrowserRouter>
