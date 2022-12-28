@@ -30,18 +30,21 @@ class Navbar extends Component
                               
                                 <ul class="navbar-nav w-100 align-self-center">
                                     <li class="nav-item active ml-5" >
-                                        <Link class="nav-link big_font_16" style={{fontSize: 14}} to="/home">Overview </Link>
+                                        <Link class="nav-link big_font_16" style={{fontSize: 14}} to="/">Overview </Link>
                                     </li>
 
 
 
 
                                     <li class="nav-item active  mx-5">
-                                        <Link class="nav-link big_font_16" style={{fontSize: 14}} to="/profile">Pages</Link>
+                                        <Link class="nav-link big_font_16" style={{fontSize: 14}} to="/">Pages</Link>
                                     </li>
 
                                     <li class="nav-item active  mr-5">
-                                        <Link class="nav-link big_font_16" style={{fontSize: 14}} to="/profile">Template</Link>
+                                        <Link class="nav-link big_font_16" style={{fontSize: 14}} to="/">Template</Link>
+                                    </li>
+                                    <li class="nav-item active  mr-5">
+                                        <Link class="nav-link big_font_16" style={{fontSize: 14}} to="/admin">Admin</Link>
                                     </li>
 
                                    <ul className='navbar-nav ml-auto'>
